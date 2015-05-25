@@ -42,7 +42,7 @@ void gen()
 	printf("%d: %s\n",l1,stmt[1]);//The "s=a" part
 	if(cur<3)
 	{
-		printf("%d STOP\n",l2);
+		printf("%d: STOP\n",l2);
 	}
 	else //If an else is provided in the input then the below statements are also to be printed
 	{
